@@ -69,10 +69,11 @@ for(let i = 0; i<mobileNavListObj.length; i++){
   });
 }
 docBody.addEventListener("click", function(e) {
-  if(!e.target.classList.contains('more-nav')){
+  if(!e.target.classList.contains('more-nav') && !e.target.classList.contains('bar')){
     mobileNavList.classList.remove('active');
   }
 });  
+ 
 
 
 
