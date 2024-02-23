@@ -73,7 +73,6 @@ docBody.addEventListener("click", function(e) {
     mobileNavList.classList.remove('active');
   }
 });  
- 
 
 
 
