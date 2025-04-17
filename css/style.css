@@ -754,6 +754,16 @@ body::-webkit-scrollbar {
   margin-bottom: 1rem;
   color: var(--sub-color-2);
 }
+
+.projects .project-obj .noti-box {
+  background-color: var(--text-color-1);
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.875rem;
+  color: red;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+}
+
 .projects .project-obj .url-box {
   display: flex;
   justify-content: space-between;
